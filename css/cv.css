@@ -1,0 +1,429 @@
+/* 
+
+/* css responsible */
+.inFor{
+    box-shadow: 2px 2px 3px rgb(172, 172, 172);
+}
+.aVata{
+    position: relative;
+    height: 300px;
+    width: 100%;
+}
+.aVata .img{
+   position: absolute;
+   width: 100%;
+   height: 100%;
+}
+.aVata span{
+    bottom: 20px;
+    left: 20px;
+    position: absolute;
+    display: block;
+    font-size: 26px;
+
+}
+.img img{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.conCat ul{
+    margin-top: 15px;
+    padding-left: 0;
+    margin-left: 15px;
+}
+.conCat ul li{
+    width: 100%;
+    line-height: 20px;
+    list-style: none;
+}
+.conCat ul li svg{
+    width: 20px;
+    height: 20px;
+}
+.conCat ul li a{
+    padding-left: 20px;
+    text-decoration: none;
+    color: #85847f;
+    line-height: 60px;
+}
+.conCat ul li a:hover{
+    transition: 0.8s;
+    color: red;
+}
+.ruler{
+    width: 80%;
+    margin: 0 auto;
+    height: 1px;
+    background-color: #eeeeee;
+}
+
+.title-skill{
+   margin-left: 15px;
+}
+.title-skill svg{
+    width: 20px;
+    height: 20px;
+}
+.title-skill span
+{
+    color: #6f727b;
+    font-size: 20px;
+    line-height: 80px;
+    font-weight: 600;
+    margin-left: 20px;
+}
+.skill ul{
+    padding: 0;
+    margin-left: 15px;
+}
+.skill ul li{
+    margin-bottom: 30px;
+    list-style: none;
+}
+.skill ul li span{
+    
+    margin-bottom: 20px;
+}
+.skill ul li .process{
+    width: 96%;
+    height: 18px;
+    background-color: #f1f1f1;
+    border-radius: 20px;
+    
+    margin-top: 15px;
+}
+.skill ul li .load{
+    width: 90%;
+    height: 18px;
+    background-color: #009788;
+    border-radius: 20px;
+    text-align: center;
+    margin: auto auto;
+   margin-left: -5px;
+    margin-top: 15px;
+    font-weight: 600;
+    color: white;
+}
+.skill ul li .load.l1{
+    width: 60%;
+}
+.skill ul li .load.l2{
+    width: 85%;
+}
+.skill ul li .load.l3{
+    width: 75%;
+}
+
+.title-languages{
+    margin-top: 30px;
+    margin-left: 15px;
+}
+.title-languages svg{
+    width: 20px;
+    height: 20px;
+}
+.title-languages span
+{
+    color: #6f727b;
+    font-size: 20px;
+    font-weight: 600;
+    margin-left: 20px;
+    line-height: 60px;
+}
+.languages ul li .process{
+    width: 96%;
+    height: 18px;
+    background-color: #f1f1f1;
+    border-radius: 20px;
+    margin-top: 15px;
+    margin-bottom: 20px;
+}
+
+.languages ul li .load{
+    width: 90%;
+    height: 18px;
+    background-color: #009788;
+    border-radius: 20px;
+    text-align: center;
+    margin: auto auto;
+    margin-top: 15px;
+    margin-left: -5px;
+    font-weight: 600;
+    color: white;
+}
+.languages ul li .load.l1{
+    width: 20%;
+}
+.languages ul li .load.l2{
+    width: 15%;
+}
+.languages ul{
+    padding: 0;
+    margin-top: 30px ;
+    margin-left: 15px;
+    margin-bottom: 30px;
+    padding-bottom: 30px;
+}
+.languages ul li{
+    list-style: none;
+}
+
+.eXp{
+    position: relative;
+    width: 100%;
+    box-shadow: 5px 5px 10px rgb(166, 166, 166);
+    
+}
+.knowleg{
+    padding-top: 20px;
+    margin-left: 20px;
+}
+.title-knowleg{
+    
+}
+.title-knowleg svg{
+    width: 40px;
+    height: 40px;
+    color: #767477;
+}
+.title-knowleg span{
+    font-size: 26px;
+    font-weight: bold;
+    color: #009788;
+    margin-left: 10px;
+    margin-top: 14px;
+}
+.school{
+    font-size: 18px;
+    margin-left: 55px;
+    margin-top: 20px;
+    font-weight: bold;
+    color: #767477;
+}
+.major{
+    margin-left: 75px;
+    margin-top: 10px;
+    color: #85847f;
+}
+.major p{
+    margin-top: 5px;
+}
+.rl{
+    
+    width: 90%;
+    margin: 20px auto;
+    height: 2px;
+    background-color: #eeeeee;
+}
+.target{
+    margin-top: 20px;
+    margin-left: 20px;
+}
+.target svg{
+    width: 40px;
+    height: 40px;
+}
+.target span{
+    font-size: 28px;
+    color: #009788;
+    font-weight: bold;
+    margin-left: 10px;
+}
+.list{
+    margin-top: 20px;
+    margin-left: 85px;
+    line-height: 30px;
+}
+.page3{
+    margin-top: 20px;
+    height: 60px;
+   
+    box-shadow: 1px 1px 10px gray;
+}
+.infomation{
+    margin-top: 10px;
+    
+    background-color: #009788;
+    width: 100%;
+    box-shadow: 10px 10px 20px rgb(173, 173, 173);
+    opacity: 0.6;
+    margin-bottom: 10px;
+}
+.skills{
+    margin-left: 10px;
+}
+.title-skill svg{
+    margin-top: 20px;
+     width: 40px;
+     height: 40px;
+}
+.title-skill span{
+    font-size: 28px;
+    color: #009788;
+    font-weight: bold;
+    margin-left: 10px;
+}
+.details{
+    margin-top: 20px;
+    margin-left: 85px;
+}
+.details p{
+    line-height: 30px;
+}
+.target{
+    margin-top: 20px;
+    margin-left: 20px;
+}
+.target svg{
+    width: 40px;
+    height: 40px;
+}
+.target span{
+    font-size: 28px;
+    color: #009788;
+    font-weight: bold;
+    margin-left: 10px;
+}
+.course{
+    margin-left: 20px;
+    margin-top: 20px;
+    color: #009788;
+    font-weight: bold;
+}
+.title-course{
+    display: inline-flex;
+}
+.title-course svg{
+    width: 40px;
+    height: 40px;
+}
+.title-course span{
+    margin-top: 12px;
+    font-size: 26px;
+    margin-left: 10px;
+}
+.course ul{
+    margin-left: 75px;
+}
+.course ul li{
+    margin: 10px 0px;
+    list-style: none;
+}
+.course ul li a{
+    color: #767477;
+    font-size: 14px;
+}
+.course ul li a:hover{
+     transition: 0.4s;
+     color: red;
+}
+.exp{
+    margin-left: 20px;
+    margin-top: 20px;
+}
+.title-exp svg{
+    width: 40px;
+    height: 40px;
+}
+.title-exp span{
+    margin-left: 10px;
+    font-size: 24px;
+    font-weight: bold;
+    color: #009788;
+}
+
+.description{
+    margin-left: 75px;
+    margin-top: 15px;
+    margin-right: 10px;
+    
+}
+.description p{
+    line-height: 30px;
+}
+.infomation{
+    padding: 0;
+    background-color: #009788;
+    width: 100%;
+    box-shadow: 10px 10px 20px rgb(173, 173, 173);
+    opacity: 0.6;
+    
+}
+.comunicate{
+    align-items: center;
+    text-align: center;
+    margin: 0 auto;
+}
+.comunicate p{
+    color: whitesmoke;
+    font-size: 24px;
+    margin: 15px auto;
+    padding-top: 20px;
+}
+.comunicate span svg{
+     width: 30px;
+     height: 30px;
+     margin: 0 2px;
+}
+.times{
+    margin-top: 10px;
+}
+.Tasks{
+    text-align: center;
+    margin: 0 auto;
+    border-radius: 20px;
+    
+    width: 100%;
+    height: 120px;
+   
+    margin-bottom: 10px;
+}
+.Tasks p{
+   line-height: 30px;
+   color: white;
+   font-size: 16px;
+}
+
+@media (max-width : 739px)
+{
+    .school{
+        margin-left: 15px;
+    }
+    .major{
+        margin-left: 15px;
+    }
+    p{
+        
+        text-align: justify;
+    }
+    span{
+        
+    }
+    .description{
+        margin-left: 10px;
+        text-align: justify;
+    }
+    .course  ul{
+        margin-left: 10px;
+        padding: 0;
+    }
+    .list{
+        margin-left: 20px;
+    }
+    .details{
+        margin-left: 15px;
+    }
+    .infomation{
+        text-align: center;
+       
+    }
+    .comunicate{
+        text-align: center;
+        padding-left: 10px;
+    }
+    .times{
+        padding-left: 10px;
+    }
+}
